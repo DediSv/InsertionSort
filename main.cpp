@@ -23,10 +23,10 @@ void printRes(vector <int> array){
 
 int main() {
     int n;
-    cout << "Enter the massive size:\n";
+    cout << "Enter the array size:\n";
     cin >> n;
     vector <int> array(n);
-    cout << "Enter your massive:\n";
+    cout << "Enter your array:\n";
     for (int i = 0; i < n; i++ )
         cin >> array[i];
     insSort(array);
